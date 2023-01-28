@@ -1,0 +1,67 @@
+{
+    "results": [
+        {
+            "gender":"female",
+            "name": {
+                "title":"Miss",
+                "first":"Gema",
+                "last":"Álvarez"
+            },
+            "location":{
+                "street":{
+                    "number":6887,
+                    "name":"Calle del Arenal"
+                },
+                "city":"Ciudad Real",
+                "state":"La Rioja",
+                "country":"Spain",
+                "postcode":46205,
+                "coordinates":{
+                    "latitude":"-30.2622",
+                    "longitude":"121.3871"
+                },
+                "timezone":{
+                    "offset":"-4:00",
+                    "description":"Atlantic Time (Canada), Caracas, La Paz"
+                }
+            },
+            "email":"gema.alvarez@example.com",
+            "login":{
+                "uuid":"6044bb3c-64ed-45fe-9275-0e4a63a75464",
+                "username":"goldenbird902",
+                "password":"irving",
+                "salt":"p3Yx95Ml",
+                "md5":"c6093269bba3d2790a4b8cb6f9d14982",
+                "sha1":"984ee70d0dd85a2b236f53489da254dc605b36a5",
+                "sha256":"0f0075eeb40b94bacb09167cf3b5c37f5a31a2d45e24235b83681e7f73d704eb"
+            },
+            "dob":{
+                "date":"1959-12-17T12:05:59.787Z",
+                "age":63
+            },
+            "registered":{
+                "date":"2015-12-02T15:47:22.874Z",
+                "age":7
+            },
+            "phone":"926-432-427",
+            "cell":"656-361-261",
+            "id":{
+                "name":"DNI",
+                "value":"27608412-V"
+            },
+            "picture":{
+                "large":"https://randomuser.me/api/portraits/women/38.jpg",
+                "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
+                "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"
+            },
+            "nat":"ES"
+        }
+    ],
+    "info":{
+        "seed":"abd8cd146d16771a",
+        "results":1,
+        "page":1,
+        "version":"1.4"
+    }
+        
+}
