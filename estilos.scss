@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+// Create your own map
+$custom-colors: (
+  "custom-color": #900
+);
+
+// Merge the maps
+$theme-font: map-merge($theme-font, $custom-font);
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+$theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+// etc
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+}
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
+

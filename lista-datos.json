@@ -3,7 +3,7 @@
         {
             "gender":"male",
             "name":{
-                "title":"Mr",
+                "title":"Sr",
                 "first":"Cristian",
                 "last":"Román"
             },
@@ -50,9 +50,9 @@
                 "value":"85887677-U"
             },
             "picture":{
-                "large":"https://randomuser.me/api/portraits/men/97.jpg",
-                "medium":"https://randomuser.me/api/portraits/med/men/97.jpg",
-                "thumbnail":"https://randomuser.me/api/portraits/thumb/men/97.jpg"
+                "large":"https://randomuser.me/api/portraits/men/20.jpg",
+                "medium":"https://randomuser.me/api/portraits/med/men/20.jpg",
+                "thumbnail":"https://randomuser.me/api/portraits/thumb/men/20.jpg"
             },
             "nat":"ES"
         }
