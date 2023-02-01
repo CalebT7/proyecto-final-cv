@@ -7,6 +7,19 @@ body {
   font-family: "Montserrat";
   src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 }
+.card-title {
+  padding: 10px;
+  align-items: center;
+}
+
+h3{
+  padding: 15px;
+}
+
+footer{
+  padding: 10px;
+  margin-top: 10px;
+}
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Cristian Román</title>
+    <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -14,23 +15,26 @@
     </header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="fa-solid fa-sack-dollar"></i>Cristian Román</a>
+          <a class="navbar-brand" href="index.html">
+            <i class="fa-solid fa-chart-line-up"></i>
+            Cristian Román
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="#Sumario">Sobre mi</a>
+                <a class="nav-link active" href="#Sumario">Sobre mí</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#Experiencia">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Estudios</a>
+                <a class="nav-link" href="#Estudios">Estudios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Habilidades</a>
+                <a class="nav-link" href="#Habilidades">Habilidades</a>
               </li>
             </ul>
           </div>
@@ -38,37 +42,246 @@
     </nav>
 
     <section id="presentiation-card">
+      <div class="foto-perfil">
         <img src="https://randomuser.me/api/portraits/men/20.jpg" class="img-thumbnail" alt="Imagen de presentación de Cristian Román">
-        <div class="card" style="width: 20rem;">
-            <div class="card-body">
-              <h3 class="card-title">Cristian Román</h3>
-              <h7 class="card-subtitle mb-2 text-muted">ASESOR FINANCIERO INTERNACIONAL</h7>
-              <p class="card-text">
-                907-923-895 <br>
-                cristian.roman@example.com
-              </p>
-              <a href="#" class="card-link">Contactame!</a>
-            </div>
-          </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <h3 class="card-title">Cristian Román</h3>
+          <h7 class="card-subtitle mb-2 text-muted">ASESOR FINANCIERO INTERNACIONAL</h7>
+          <p class="card-text">
+            907-923-895 <br>
+            cristian.roman@example.com
+          </p>
+          <a href="#formulario-contacto" class="card-link">¡Contactame!</a>
+        </div>
+      </div>
+
     </section>
     
     <article id="Sumario">
-        <h3>Sobre mi</h3>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sapiente maxime ipsam tenetur perferendis exercitationem ipsa iste dolor est voluptatem quos consequatur tempora animi quibusdam, a laborum debitis, accusamus ullam?
+        <h3>Sobre mí</h3>
+        <div class="col-12">
+          <p>
+            Hola! Mi nombre es Cristián y me dedicó a la asesoría financiera para empresas que quieran expandir sus fronteras comerciales hacia otros países. En mi trayectoria profesonal he ayudado a empresas europeas ingresar a mercados con gran competencia, como en los Estados Unidos, Latinoamérica y Asia. <br>
 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores at facilis asperiores, temporibus, vel aut sit corrupti, consectetur dolore iure non laboriosam sunt molestiae consequuntur autem sint vero minima quae.
-        </p>
+            En la actualidad, el escenario de inestabilidad económica que afronta la mayoría de los países del globo, evidencia la necesidad de tener un plan de negocios claro, para no cometer inversiones con resultado negativo. <br>
+
+            Mis oficinas siempre están abiertas para escuchar nuevas propuestas y firmas que deseen trabajar juntto a la metodología que desarrollamos en 10 años de experiencia. Puedes visitarnos en Avenida de Salamanca 4124, Santander, en el estado de Canarias, España.<br>
+          </p>
+        </div>
+
+        <div class="col-12">
+          <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46335.38369417524!2d-3.8461566036137267!3d43.46140135696776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4949ae8a6bee71%3A0xd27cdc801682ba96!2sSantander%2C%20Cantabria%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sar!4v1675200896428!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
     </article>
 
-    <article>
-        <h3>Experiencia Laboral</h3>
+    <article id="Experiencia">
+      <h3>EXPERIENCIA LABORAL</h3>
+
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="fw-bold">Director comercial
+            <span class="badge bg-primary rounded-pill">2020-2023</span>
+          </div>
+          Recomendaciones Financieras S.A.
+        </li>
+        <li class="list-group-item">
+          <div class="fw-bold">Analista research y managment de carteras
+            <span class="badge bg-primary rounded-pill">2014-2020</span>
+          </div>
+          Recomendaciones Financieras S.A.
+        </li>
+        <li class="list-group-item">
+          <div class="fw-bold">Redactor de informes financieros
+            <span class="badge bg-primary rounded-pill">2012-2014</span>
+          </div>
+          AyT Consultores Económicos.
+        </li>
+        <li class="list-group-item">
+          <div class="fw-bold">Investigador en Econometría financiera 
+            <span class="badge bg-primary rounded-pill">2008-2012</span>
+          </div>
+          Centro para la Investigación y las Ciencias Sociales de España (CICSE).
+        </li>
+      </ul>
+      
     </article>
+
+    <article id="Estudios">
+      <h3>TRAYECTORIA ACADÉMICA</h3>
+
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="fw-bold">Magister en Finanzas
+            <span class="badge bg-primary rounded-pill">2006-2008</span>
+          </div>
+          Universidad Nacional de Salamanca (UNS).
+        </li>
+        <li class="list-group-item">
+          <div class="fw-bold">Licenciatura en Ciencias Económicas
+            <span class="badge bg-primary rounded-pill">2001-2006</span>
+          </div>
+          Universidad Nacional de Salamanca (UNS).
+        </li>
+        <li class="list-group-item">
+          <div class="fw-bold">Técnico en Comercio Internacional
+            <span class="badge bg-primary rounded-pill">2000-2003</span>
+          </div>
+          Instituto de Educación Comercial de España(IECE).
+        </li>
+      </ul>
+    </article>
+
+    <article id="Habilidades">
+      <h3>HABILIDADES</h3>
+      
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <i class="fa-solid fa-globe-stand"></i>
+              Idiomas
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>Eficiencia profesional en Inglés, Portugues y Francés.</strong> Capacidad de leer textos y mantener conversaciones de forma fluída.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Conocimientos tecnoológicos
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>Informes digitalizados en máxima calidad.</strong> Utilización completa de todas las herramientas del paquete Microsft Office para la realización de nuestros análisis económicos. Asismismo, incursionamos en la realización de nuevos programas de software impulsados con Python, para eleborar con mayor presición las piezas de publicación.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Aptitudes comunicacionales
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>Destreza en la realización de discuross escritos u orales.</strong> Ampliedad de conocimientos en materia de comunicación para elaborar mensajes más acertivos. 
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+
+    <section id="formulario-contacto">
+      <h3>CONTACTO</h3>
+
+      <form class="row g-3 mt-3 needs-validation" novalidate>
+        <div class="col-6">
+          <label for="Input" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu nombre" required>
+          <div class="valid-feedback">
+            Completado
+          </div>
+          <div class="invalid-feedback">
+            Es necesario colocar el nombre.
+          </div>
+        </div>
+
+        <div class="col-6">
+          <label for="lastnameInput" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="lastnameInput" placeholder="Escribe tu apellido" required>
+          <div class="valid-feedback">
+            Completado
+          </div>
+          <div class="invalid-feedback">
+            Es necesario colocar el apellido.
+          </div>
+        </div>
+        <div class="col-12">
+          <label for="emailInput" class="form-label">Email</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="example@email.com" required>
+          <div class="valid-feedback">
+            Completado
+          </div>
+          <div class="invalid-feedback">
+            Es necesario colocar el email.
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="adressInput" class="form-label">Residencia</label>
+          <input type="text" class="form-control" id="adressInput" placeholder="Escribir ciudad y país de residencia">
+        </div>
+
+        <div class="col-12">
+          <label for="asuntoInput" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="asuntoInput" placeholder="Motivo del mensaje" required>
+          <div class="valid-feedback">
+            Completado
+          </div>
+          <div class="invalid-feedback">
+            Es necesario colocar un asunto.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="col-12 g-2">
+          <div class="form-check">
+            <input type="checkbox" id="checkNewsletter" class="form-check-pinput">
+            <label for="checkNewsletter" class="form-check-label">Quiero recibir informes económicos a mi email</label>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" value="Enviar">
+            Enviar
+          </button>
+        
+        </div>
+      </form>
+
+    </section>
     
-    <button type="button" class="btn btn-info">Info</button>
+    <footer>
+      <h6>Proyecto final. Primeros pasos de desarrollo fronteend 2023.</h6>
+      <p class="letra-chica">La información utilizada en la presente web es randomuser.me, los íconos son de Font Awesome y las fotografías de Pixabay.</p>
+    </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/e2ae76dcc0.js" crossorigin="anonymous"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (() => {
+      'use strict'
 
-</body>
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      const forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.from(forms).forEach(form => {
+          form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+          }
+
+          form.classList.add('was-validated')
+          }, false)
+      })
+      })()
+    </script>
+
+  </body>
 </html>
