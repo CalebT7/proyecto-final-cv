@@ -13,23 +13,33 @@ body {
   align-items: center;
 }
 */
-section{
-  margin: 10px;
+
+.formulario-contacto{
+  margin-top: 20px;
 }
 
-#presentation-card{
+.presentacion{
   background-image: url("2130.jpg");
-  background-size: auto ;
+  background-size: 100% ;
+  background-repeat: no-repeat;
 }
 
 article{
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .foto-perfil{
-  padding: 10px;
+  padding: 20px;
 }
 
+.rounded-circle{
+  height: 128px;
+  width: 128px;
+}
+.card{
+  margin: 0px;
+  padding: 20px;
+}
 
 .container{
   margin: 10px;
@@ -38,14 +48,40 @@ article{
 .container-fluid{
   margin: 0%;
   padding: 0%;
-  
+}
+
+.seccion{
+  background-color: rgb(88, 120, 140);
+  text-decoration-color: white;
+}
+
+.letra-chica{
+  margin-bottom: 0rem;
+}
+
+.mapa{
+  padding: 10px;
+}
+
+body{
+  background-color: red;
 }
 
 footer{
   padding: 0px;
-  margin-top: 0px;
-  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  background-color: rgb(88, 120, 140);
 }
+
+h2{
+  padding-top: 20px;
+  margin-top: 0px;
+}
+h3{
+  padding-top: 10px;
+}
+
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
